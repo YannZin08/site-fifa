@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FutNerds - Promessas por Posição</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+      color: #fff;
+      text-align: center;
+    }
+    header {
+      padding: 40px 20px;
+    }
+    header img {
+      width: 120px;
+      border-radius: 50%;
+      border: 3px solid #00ff88;
+      box-shadow: 0 0 20px #00ff88, 0 0 40px #00ff88;
+    }
+    h1 {
+      margin-top: 20px;
+      font-size: 2.8rem;
+      font-family: 'Orbitron', sans-serif;
+      text-transform: uppercase;
+      text-shadow: 0 0 15px #00ff88, 0 0 30px #7d2ae8;
+    }
+    .card {
+      background: rgba(255,255,255,0.05);
+      border-radius: 15px;
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 500px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.5);
+      transition: all 0.3s ease;
+    }
+    .card a {
+      text-decoration: none;
+      color: #00ff88;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1.5rem;
+      display: block;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 25px #00ff88;
+    }
+    .btn {
+      display: inline-block;
+      margin: 30px 10px;
+      padding: 12px 25px;
+      font-size: 1.1rem;
+      border-radius: 30px;
+      background: #00ff88;
+      color: #0f0c29;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      box-shadow: 0 0 15px #00ff88;
+    }
+    .btn:hover {
+      background: #7d2ae8;
+      color: #fff;
+      box-shadow: 0 0 20px #7d2ae8;
+      transform: translateY(-3px);
+    }
+    footer {
+      padding: 25px;
+      font-size: 0.9rem;
+      color: #bbb;
+      background: rgba(0,0,0,0.4);
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="index.html"><img src="futnerds.png" alt="Logo FutNerds"></a>
+    <h1>Promessas por Posição</h1>
+    <p>Escolha uma posição e veja as principais promessas do FIFA!</p>
+  </header>
+
+  <section>
+    <div class="card"><a href="promessas_goleiro.html">Goleiros</a></div>
+    <div class="card"><a href="promessas_zagueiro.html">Zagueiros</a></div>
+    <div class="card"><a href="promessas_laterais.html">Laterais</a></div>
+    <div class="card"><a href="promessas_meio.html">Meio-campistas</a></div>
+    <div class="card"><a href="promessas_pontas.html">Pontas</a></div>
+    <div class="card"><a href="promessas_atacante.html">Atacantes</a></div>
+  </section>
+
+  <a href="index.html" class="btn">Voltar</a>
+
+  <footer>
+    © 2025 FutNerds. Todos os direitos reservados.
+  </footer>
+</body>
+</html>

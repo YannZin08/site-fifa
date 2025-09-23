@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FutNerds</title>
+
+  <!-- Fontes modernas -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+      color: #fff;
+      text-align: center;
+      overflow-x: hidden;
+    }
+
+    header {
+      padding: 60px 20px 40px;
+    }
+
+    header img {
+      width: 150px;
+      border-radius: 50%;
+      border: 3px solid #00ff88;
+      box-shadow: 0 0 20px #00ff88, 0 0 40px #00ff88;
+    }
+
+    h1 {
+      margin-top: 20px;
+      font-size: 3.2rem;
+      font-family: 'Orbitron', sans-serif;
+      text-transform: uppercase;
+      text-shadow: 0 0 15px #00ff88, 0 0 30px #7d2ae8;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin: 20px auto 40px;
+      max-width: 700px;
+      color: #e0e0e0;
+      line-height: 1.6;
+    }
+
+    .social-links {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 50px;
+    }
+
+    .social-links a {
+      color: #00ff88;
+      font-size: 1.6rem;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    .social-links a:hover {
+      color: #7d2ae8;
+      transform: scale(1.2);
+    }
+
+    .btn {
+      display: inline-block;
+      margin: 20px 10px;
+      padding: 12px 25px;
+      font-size: 1.1rem;
+      border-radius: 30px;
+      background: #00ff88;
+      color: #0f0c29;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      box-shadow: 0 0 15px #00ff88;
+    }
+
+    .btn:hover {
+      background: #7d2ae8;
+      color: #fff;
+      box-shadow: 0 0 20px #7d2ae8;
+      transform: translateY(-3px);
+    }
+
+    footer {
+      padding: 25px;
+      font-size: 0.9rem;
+      color: #bbb;
+      background: rgba(0,0,0,0.4);
+      margin-top: 50px;
+    }
+
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 2.2rem;
+      }
+      p {
+        font-size: 1rem;
+      }
+      .btn {
+        font-size: 1rem;
+        padding: 10px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="futnerds.png" alt="Logo FutNerds">
+    <h1>FutNerds</h1>
+    <p>O lugar dos apaixonados por FIFA! Dicas de carreira e tudo sobre o jogo em um só lugar.</p>
+  </header>
+
+  <div class="social-links">
+    <a href="#">Instagram</a>
+    <a href="#">TikTok</a>
+    <a href="#">YouTube</a>
+  </div>
+
+  <a href="promessas.html" class="btn">Ver Promessas</a>
+  <a href="#" class="btn">Últimas Notícias</a>
+
+
+  <section style="padding: 60px 20px; background: rgba(255,255,255,0.05); margin: 40px auto; border-radius: 20px; max-width: 1000px;">
+    <h2 style="font-family: 'Orbitron', sans-serif; font-size: 2.5rem; text-shadow: 0 0 15px #00ff88, 0 0 30px #7d2ae8; margin-bottom: 30px;">Ideias de Times para Carreira</h2>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px; text-align: left;">
+
+      <div style="background: #1c1c3c; padding: 20px; border-radius: 15px; box-shadow: 0 0 15px rgba(0,255,136,0.3);">
+        <h3 style="color: #00ff88;">Desafios</h3>
+        <ul>
+          <li>Leyton Orient</li>
+          <li>Paris FC</li>
+          <li>Xrexham</li>
+          <li></li>
+        </ul>
+      </div>
+
+      <div style="background: #1c1c3c; padding: 20px; border-radius: 15px; box-shadow: 0 0 15px rgba(125,42,232,0.3);">
+        <h3 style="color: #7d2ae8;">Revelar Promessas</h3>
+        <ul>
+          <li>Benfica</li>
+          <li>Ajax</li>
+          <li>Atalanta</li>
+        </ul>
+      </div>
+
+      <div style="background: #1c1c3c; padding: 20px; border-radius: 15px; box-shadow: 0 0 15px rgba(255,255,255,0.2);">
+        <h3 style="color: #ffffff;">Rumo ao topo</h3>
+        <ul>
+          <li>Genoa</li>
+          <li>Hamburgo</li>
+          <li>Everton</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    © 2025 FutNerds. Todos os direitos reservados.
+  </footer>
+</body>
+</html>
